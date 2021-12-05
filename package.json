@@ -1,0 +1,26 @@
+{
+  "name": "splinterlands-bot-nodejs",
+  "version": "1.0.0",
+  "description": "A splinterlans game bot to be used with nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimozurdo/splinterlands-bot-nodejs.git"
+  },
+  "keywords": [],
+  "author": "shimozurdo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimozurdo/splinterlands-bot-nodejs/issues"
+  },
+  "homepage": "https://github.com/shimozurdo/splinterlands-bot-nodejs#readme",
+  "dependencies": {
+    "@hiveio/hive-js": "^2.0.4",
+    "eosjs-ecc": "^4.0.7",
+    "node-fetch": "^2.6.1",
+    "websocket": "^1.0.34"
+  }
+}
